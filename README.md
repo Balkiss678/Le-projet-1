@@ -23,7 +23,7 @@ Avant de commencer, vous devez installer :
 
 Cloner un dépôt :
 
-git clone git clone https://github.com/Balkiss678/git-initiation
+git clone  https://github.com/Balkiss678/git-initiation
 
 Configurer Git :
 
