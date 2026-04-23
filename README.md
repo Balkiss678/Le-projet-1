@@ -23,14 +23,15 @@ Avant de commencer, vous devez installer :
 
 Cloner un dépôt :
 
-git clone  https://github.com/Balkiss678/git-initiation
+git clone https://github.com/user/projet-test.git
+
 
 Configurer Git :
 
-git config --global user.name "Balkiss Mzoughi"
-git config --global user.email "balkissexrd@gmail.com"
+- git config --global user.name "Balkiss Mzoughi"
+- git config --global user.email "balkissexrd@gmail.com"
 
-4. Utilisation 
+## 4. Utilisation :
 - Ajouter les fichiers :
 git add .
 
@@ -38,16 +39,17 @@ git add .
 git commit -m "Premier commit"
 
 - Envoyer vers GitHub :
-git push origin main
+git remote add origin https://github.com/Balkiss678/projet-test.git
+git push -u origin main
+
 
 - Récupérer les modifications :
-git pull
+git pull origin main
 
-5. Auteurs :
+## 5. Auteurs : 
+Balkiss Mzoughi
 
-- Balkiss Mzoughi
-
-## Remarque :
+## Remarque 
 Git permet de :
 
 - suivre les versions du code
